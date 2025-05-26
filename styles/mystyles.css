@@ -20,6 +20,14 @@
     margin: 0.5em 0;
     padding: 0.3em;
     border-right: 1em solid black }
+  h2 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+		ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.4em;
+    border-right: 1em solid black }
   ul.navbar a {
     text-decoration: none }
   a:link {
@@ -30,3 +38,15 @@
     margin-top: 1em;
     padding-top: 1em;
     border-top: thin dotted }
+
+.img {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;  /* Ensures image fills the box nicely */
+}
+
+.banner {
+  width: 1000px;
+  height: 500px;
+  object-fit: cover;  /* Ensures image fills the box nicely */
+}
