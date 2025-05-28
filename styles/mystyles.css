@@ -15,25 +15,30 @@
 	h1 {
     font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif }
-		ul.navbar li {
-    background: white;
+	
+  ul.navbar li {
+    background: #020e36;
     margin: 0.5em 0;
     padding: 0.3em;
     border-right: 1em solid black }
   h2 {
     font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif }
-		ul.navbar li {
-    background: white;
+
+
+  ul.navbar li {
+    background: #020e36;
+    position: center;
     margin: 0.5em 0;
     padding: 0.4em;
-    border-right: 1em solid black }
+    border-right: 1em #020e36 }
+
   ul.navbar a {
     text-decoration: none }
   a:link {
-    color: blue }
+    color: rgb(255, 252, 53) }
   a:visited {
-    color: purple }
+    color: rgb(50, 170, 255) }
 	address {
     margin-top: 1em;
     padding-top: 1em;
@@ -50,3 +55,4 @@
   height: 500px;
   object-fit: cover;  /* Ensures image fills the box nicely */
 }
+
