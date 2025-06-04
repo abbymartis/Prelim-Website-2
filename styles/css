@@ -1,0 +1,9 @@
+  ul.navbar li {
+    background: white;
+    position: fixed;
+    margin: 0.5em 0;
+    padding: 0.4em;
+    border-right: 1em solid black }
+
+  ul.navbar a {
+    text-decoration: none }

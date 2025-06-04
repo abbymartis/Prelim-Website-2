@@ -1,58 +1,95 @@
-  body {
-   padding-left: 11em;
-   font-family: Georgia, "Times New Roman",
-          Times, serif;
-		  color: rgb(255, 255, 255);
-    background-color: #020e36 }
-	 ul.navbar {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-	position: absolute;
-    top: 2em;
-    left: 1em;
-    width: 10em }
-	h1 {
-    font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif }
-	
-  ul.navbar li {
-    background: #020e36;
-    margin: 0.5em 0;
-    padding: 0.3em;
-    border-right: 1em solid black }
-  h2 {
-    font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif }
-
-
-  ul.navbar li {
-    background: #020e36;
-    position: center;
-    margin: 0.5em 0;
-    padding: 0.4em;
-    border-right: 1em #020e36 }
-
-  ul.navbar a {
-    text-decoration: none }
-  a:link {
-    color: rgb(255, 252, 53) }
-  a:visited {
-    color: rgb(50, 170, 255) }
-	address {
-    margin-top: 1em;
-    padding-top: 1em;
-    border-top: thin dotted }
-
-.img {
+  .img {
   width: 600px;
   height: 300px;
-  object-fit: cover;  /* Ensures image fills the box nicely */
+  object-fit: cover;  
 }
 
 .banner {
-  width: 1000px;
-  height: 500px;
-  object-fit: cover;  /* Ensures image fills the box nicely */
+  width: 80%;         
+  height: auto;       
+  display: block;
+  margin: 1rem auto;  
 }
 
+.banner {
+  width: 75%;
+  height: auto;
+  display: block;
+}
+
+
+ul.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #020e36 ;
+  padding: 1rem 0;
+  position: sticky; 
+  top: 0;
+  z-index: 1000;
+  flex-wrap: wrap;
+}
+
+/* Navbar links */
+ul.navbar li {
+  margin: 0 1rem;
+}
+
+ul.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+
+ul.navbar a:hover {
+  background-color: #324480 ;
+  border-radius: 4px;
+}
+
+/* Main headings and text */
+h1, h2 {
+  text-align: center;
+  margin: 2rem 1rem 1rem;
+  color: #bcbc02;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  max-width: 800px;
+  margin: 1rem auto;
+  line-height: 1.6;
+  font-family: Georgia, serif;
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+
+/* Styling for other images */
+.img {
+  display: block;
+  max-width: 80%;
+  height: auto;
+  margin: 2rem auto;
+  border-radius: 8px;
+}
+
+address {
+  text-align: center;
+  margin: 3rem 0;
+  font-style: normal;
+  font-size: 0.9rem;
+  color: #dff79c;
+}
+
+body {
+  background-color: #020e36; 
+  color: #ffffff;
+}
+
+.divider {
+  width: 100%;
+  border: none;
+  border-top: 2px solid #ccc; /* Light gray line */
+  margin: 3rem auto;
+}
