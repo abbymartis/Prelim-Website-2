@@ -124,3 +124,7 @@ caption {
   padding: 10px;
 }
   
+.centered-table {
+  margin: 2rem auto;
+  text-align: center;
+}
