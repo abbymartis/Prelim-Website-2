@@ -128,3 +128,10 @@ caption {
   margin: 2rem auto;
   text-align: center;
 }
+
+.divider {
+  width: 100%;
+  border: none;
+  border-top: 2px solid #ccc; /* Light gray line */
+  margin: 3rem auto;
+}
